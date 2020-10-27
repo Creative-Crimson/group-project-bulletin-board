@@ -21,6 +21,7 @@ First group project creating a bulletin board with HTML, CSS, Javascript and Boo
 ### About Page Milestone (Okta)
 - [ ] Logo
 - [ ] About Website
+- [ ] Carousel Screenshot
 
 ### Other Milestone
 - [ ] Menambahkan Custom Font
