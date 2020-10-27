@@ -6,18 +6,21 @@ First group project creating a bulletin board with HTML, CSS, Javascript and Boo
 - Bulletin Board Page
 - About Page
 
-### Landing Page Milestone
+### Landing Page Milestone (Fauzi, Raka)
 - [ ] Navbar
 - [ ] Jumbotron
 - [ ] Testimoni
 - [ ] Footer
 
-### Bulletin Board Milestone
+### Bulletin Board Milestone (Dheal, Naufal (leader))
 - [ ] Name INput
 - [ ] Message Input
 - [ ] Message Card
 - [ ] Board Section (Menampilkan Message)
 
-### About Page Milestone
+### About Page Milestone (Okta)
 - [ ] Logo
 - [ ] About Website
+
+### Other Milestone
+- [ ] Menambahkan Custom Font
