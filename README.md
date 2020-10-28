@@ -13,9 +13,9 @@ First group project creating a bulletin board with HTML, CSS, Javascript and Boo
 - [ ] Footer
 
 ### Bulletin Board Milestone (Dheal, Naufal (leader))
-- [ ] Name INput
-- [ ] Message Input
-- [ ] Message Card
+- [V] Name INput
+- [V] Message Input
+- [V] Message Card
 - [ ] Board Section (Menampilkan Message)
 
 ### About Page Milestone (Okta)
