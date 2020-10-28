@@ -1,0 +1,54 @@
+/* body styling */
+
+body {
+    background-color: #692323;
+}
+
+/* header styling */
+
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #e9dedf;
+}
+
+header h1:hover {
+    color: orange;
+}
+
+/* form input user styling */
+
+.form-group label, input {
+    color: #e9dedf;
+}
+
+label:hover{
+    color: orange;
+}
+
+
+
+
+/* card styling */
+
+#outputCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    float: left;
+    margin-top: 3em;
+    max-width: 18rem; 
+    min-height: 20rem;
+    margin-left: 30px;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-footer {
+    text-align: right;
+}

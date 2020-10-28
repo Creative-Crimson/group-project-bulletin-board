@@ -7,27 +7,73 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="./bulletin-board.css">
     <title>Bulletin Board</title>
 </head>
 <body>
     
     <!-- ini navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light nav-kastem" style="background-color: darkgrey;">
-        <img src="./img/ib1.svg" height="80" width="120" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">           
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <a class="nav-link active" style="color: white;" href="#">Home</a>
-            <a class="nav-link active" style="color: white;" href="#">About</a>
-          </form>
+        <nav class="navbar navbar-expand-lg navbar-light nav-kastem" style="background-color: darkgrey;">
+            <img src="./img/ib1.svg" height="80" width="120" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="nav-link active" style="color: white;" href="#">Home</a>
+                <a class="nav-link active" style="color: white;" href="#">About</a>
+            </form>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <!-- ini header -->
+            <header>
+                <h1>Bulletin Board <i class="far fa-comment-dots"></i></h1>
+            </header>
+
+            <!-- ini form input user -->
+            <section id="inputUser">
+                <form>
+                    <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" class="form-control" id="nama"  placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPost">Post Here</label>
+                        <textarea class="form-control" id="inputPost" rows="8" placeholder="max 230 characters"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Post Now !</button>
+                </form>
+            </section>
+
+            <!-- ini card -->
+            <section id="outputCard">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <p class="card-text">Hari ini aku jadian guys sama temen sekelas aku, walaupun nembaknya lewat chat tapi aku senang sekarang aku punya pacar</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-white">Nama User</div>
+                    </div>
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <p class="card-text">Hari ini aku berantem sama pacarku huftttt, gara-gara aku cuekin main Valorant:(</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-white">Nama User</div>
+                    </div>
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <p class="card-text">Hari ini aku diputusin pacar akuuu, katanya aku bau kakiii :((</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-white">Nama User</div>
+                    </div>
+            </section>
         </div>
-      </nav>
+      
 
 </body>
 </html>
