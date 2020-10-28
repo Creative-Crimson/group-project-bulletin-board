@@ -1,3 +1,14 @@
-.nav-kastem {
-  height: 80px;
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel {
+  height: 250px;
 }
