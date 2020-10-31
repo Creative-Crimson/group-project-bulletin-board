@@ -50,7 +50,7 @@
                 <textarea class="form-control" id="inputPost" rows="8" placeholder="max 230 characters"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary" onclick="klik()">Post Now !</button>
+            <button onclick="klik()" type="submit" class="btn btn-primary">Post Now !</button>
             <!-- </form> -->
         </section>
 
@@ -63,15 +63,28 @@
 
     <script>
         function klik() {
-            outputCard.innerHTML += `
+            var isi = document.getElementById("inputPost").value;
+            var name = document.getElementById("nama").value;
+            var pisi = isi.lenght;
+            var pname = name.lenght;
+
+            if (pisi < 1 || pname < 1) {
+                alert("Harap mengisi nama dan pesan")
+            } else {
+                outputCard.innerHTML += `
                 <div class="card text-white bg-danger mb-3" style="width: 18rem;">
                             <div class="card-body">
-                                <p class="card-text">${document.getElementById("inputPost").value}</p>
+                                <p class="card-text">${isi}</p>
                             </div>
-                            <div class="card-footer bg-transparent border-white">${document.getElementById("nama").value}</div>
+                            <div class="card-footer bg-transparent border-white">${name}</div>
                     </div>`
+                document.getElementById("nama").value = '';
+                document.getElementById("inputPost").value = '';
+            }
+
         }
     </script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
