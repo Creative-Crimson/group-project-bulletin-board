@@ -21,8 +21,8 @@ First group project creating a bulletin board with HTML, CSS, Javascript and Boo
 - [x] Message Input
 - [x] Message Card
 - [x] Board Section (Menampilkan Message)
-- [ ] Menampilkan card dari kiri ke kanan
-- [ ] Clear input setelah posting
+- [x] Menampilkan card dari kiri ke kanan
+- [x] Clear input setelah posting
 
 ### About Page Milestone (Okta)
 
