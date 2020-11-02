@@ -63,11 +63,11 @@
             <!-- <form> -->
             <div class="form-group">
                 <label for="nama">Nama</label>
-                <input type="text" class="form-control" id="nama" placeholder="Enter name">
+                <input value="" type="text" class="form-control" id="nama" placeholder="Enter name">
             </div>
             <div class="form-group">
                 <label for="inputPost">Post Here</label>
-                <textarea class="form-control" id="inputPost" rows="8" placeholder="max 230 characters"></textarea>
+                <textarea value="" class="form-control" id="inputPost" rows="8" placeholder="max 230 characters"></textarea>
             </div>
 
             <button onclick="klik()" type="submit" class="btn btn-primary">Post Now !</button>
@@ -82,12 +82,13 @@
     </div>
 
     <script>
+      
         function klik() {
             var isi = document.getElementById("inputPost").value;
             var name = document.getElementById("nama").value;
-            var pisi = isi.lenght;
-            var pname = name.lenght;
-
+            
+            var pisi = isi.length
+            var pname = name.length
             if (pisi < 1 || pname < 1) {
                 alert("Harap mengisi nama dan pesan")
             } else {
